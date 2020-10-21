@@ -1,0 +1,5 @@
+<ul>
+{% for bird in site.data.bird_list %}
+  <li><a href="{{ bird.link }}">{{ bird.name }}</a></li>
+ {% endfor %}
+</ul>

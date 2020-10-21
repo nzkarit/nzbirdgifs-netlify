@@ -1,0 +1,25 @@
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+timezone: Pacific/Auckland
+
+include: [_headers]
+
+title: Aotearoa Bird GIFs # name of the site
+url: https://birdgifs.nz # root address of the site
+tagline: Aotearoa Bird GIFs, the home of your bird GIF needs
+description: GIFs of birds from Aotearoa
+favicon: /favicon.ico
+logo: /images/logo_400x400.jpg
+
+twitter:
+  username: nzbirdgifs
+  card: summary
+
+social:
+  name: Aotearoa Bird GIFs
+  links:
+    - https://twitter.com/nzbirdgifs
+
+locale: en_NZ

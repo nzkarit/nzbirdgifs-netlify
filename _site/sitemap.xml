@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/k%C4%81k%C4%81.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/p%C4%ABwakawaka.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/p%C5%ABtangitangi.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/takah%C4%93.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/toutouwai.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/t%C5%AB%C4%AB.html</loc>
+</url>
+</urlset>

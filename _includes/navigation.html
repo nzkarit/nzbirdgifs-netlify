@@ -1,0 +1,6 @@
+<nav>
+  <a href="/">Home</a>
+  {% for bird in site.data.bird_list %}
+    <a href="{{ bird.link }}">{{ bird.name }}</a>
+  {% endfor %}
+</nav>
