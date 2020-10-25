@@ -10,12 +10,13 @@ title: Aotearoa Bird GIFs # name of the site
 url: https://birdgifs.nz # root address of the site
 tagline: Aotearoa Bird GIFs, the home of your bird GIF needs
 description: GIFs of birds from Aotearoa
-favicon: /favicon.ico
+favicon: favicon.ico
 logo: /images/logo_400x400.jpg
 
 twitter:
   username: nzbirdgifs
   card: summary
+  image: /images/logo_400x400.jpg
 
 social:
   name: Aotearoa Bird GIFs
