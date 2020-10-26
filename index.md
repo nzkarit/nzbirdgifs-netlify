@@ -1,5 +1,6 @@
 ---
 layout: default
+image: /images/logo_400x400.jpg
 ---
 
 # {{ site.title }}

@@ -6,10 +6,11 @@ layout: default
 
 <ul>
 {% for bird in site.data.kaka_list %}
-  <img src="{{ bird.image }}" alt="{{ bird.alt }}" width="{{ bird.width }}" height="{{ bird.height }}" />
+<li><img src="{{ bird.image }}" alt="{{ bird.alt }}" width="{{ bird.width }}" height="{{ bird.height }}" />
   <ul>
     <li>URL: {{ site.url }}{{ bird.image }}</li>
     <li>Photographer: <a href="https://twitter.com/{{ bird.twitter }}">@{{ bird.twitter }}</a></li>
   </ul>
+</li>
 {% endfor %}
 </ul>

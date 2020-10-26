@@ -13,14 +13,15 @@ description: GIFs of birds from Aotearoa
 favicon: favicon.ico
 logo: /images/logo_400x400.jpg
 
+
 twitter:
   username: nzbirdgifs
   card: summary
-  image: /images/logo_400x400.jpg
 
 social:
   name: Aotearoa Bird GIFs
   links:
     - https://twitter.com/nzbirdgifs
+    - https://github.com/nzkarit/nzbirdgifs-netlify
 
 locale: en_NZ
