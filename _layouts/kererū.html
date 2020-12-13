@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1 id="kererū">Kererū</h1>
+  <p><i>Hemiphaga novaeseelandiae</i></p>
+
+<ul>
+{% for bird in site.data.kereru_list %}
+<li><img src="{{ bird.image }}" alt="{{ bird.alt }}" width="{{ bird.width }}" height="{{ bird.height }}" />
+  <ul>
+    <li>URL: {{ site.url }}{{ bird.image }}</li>
+    <li>Photographer: <a href="https://twitter.com/{{ bird.twitter }}">@{{ bird.twitter }}</a></li>
+  </ul>
+</li>
+{% endfor %}
+</ul>
