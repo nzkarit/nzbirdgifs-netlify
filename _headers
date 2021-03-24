@@ -3,6 +3,6 @@
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: no-referrer
   X-Content-Type-Options: nosniff
-  Content-Security-Policy: default-src 'self'
+  Content-Security-Policy: script-src 'self' 'unsafe-inline' https://staticcdn.co.nz/ https://helpline.homecaremedical.co.nz/; img-src 'self' https://shielded.co.nz/ https://staticcdn.co.nz/; font-src https://staticcdn.co.nz/; upgrade-insecure-requests
   Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), layout-animations=(), legacy-image-formats=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), oversized-images=(), payment=(), picture-in-picture=(), sync-xhr=(), usb=(), vr=(), wake-lock=(), xr-spatial-tracking=()
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
